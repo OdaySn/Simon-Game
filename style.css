@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+.topic { 
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Pixelify Sans', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn1 { 
+    background-color: red;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 10px solid black;
+}
+
+.container-fluid { 
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+
+
+
+/* Boxes Colors */ 
+
+#green { 
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow { 
+    background-color: yellow;
+}
+
+#blue { 
+    background-color: blue;
+}
+
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game_over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 576px) {
+    .topic {
+        font-size: 40px;
+    }
+    .container-fluid { 
+        margin: 100px 58px;
+    }
+    .btn1 { 
+        height: 150px;
+    }
+}
